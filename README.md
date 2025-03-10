@@ -80,7 +80,11 @@ Download Here: <a href="https://ubuntu.com/download/desktop">Ubuntu</a>
 
 Since Ubuntu is not considered an "offensive" or "vulnerable" distribution, it is safe to keep it connected to the internet using the NAT option for the Network Adapter. However, if you intend to use Ubuntu as a target you should place it on the same "Host-based network" as Kali Linux.
 
-After downloading Ubuntu, navigate to 
+After downloading Ubuntu, navigate to VirtualBox, Click "New" -> Select Ubuntu from your downloads as the ISO Image and name the Virtual Machine "Ubuntu".
+This Virtual Machince should already be running to make any updates but once its finished be sure to check its network settings.
+
+![image](https://github.com/user-attachments/assets/dbafaed1-15c5-4c79-ad6d-712a25159680)
+
 
 ### (Optional) Install other Operating Systems
 As long as you have a CD/DVD or an ISO file, you can install any other operating system using the same steps as you would for Ubuntu.
