@@ -32,6 +32,7 @@ Select File -> Tools -> Network manager
 Once the Network Manager is opened, click "create". This will generate a brand new virtual network adapter.
 Click on "Properties", making sure its the configuration you want.
 I would recommend manual to keep track of the IP address ranges.
+
 (Optional) You can choose to enable DHCP, and create multiple Virtual Networks.
 Make note of the network adapter you just created.
 ![image](https://github.com/user-attachments/assets/37d6043c-ad50-4d57-89e1-ab5ded7ddfde)
@@ -40,10 +41,10 @@ Make note of the network adapter you just created.
 Kali come pre-packaged as a "VirtualBox Pre-Built Image" making instillation easy.
 Download Here: <a href="https://www.kali.org/get-kali/#kali-virtual-machines">Kali Virtual Machines</a>
 
-Select the section for Virtual Box (Not VMware) and choose a distribution that firs your current processor (newer computers are 64-bit, while older ones are 32-bit)
+Select the section for Virtual Box (Not VMware) and choose a distribution that fits your current processor (newer computers are 64-bit, while older ones are 32-bit)
 Download the file and note where its saved.
 
-(Additional Steps) Once the downloaded the file extension may be .7z, if so download thus free opensource software <a href="https://www.7-zip.org/">7-Zip</a> to unzip the file. When completed you should have a new Kali file that contains the Kali VirtualBox image with file extention .vbox.
+(Additional Steps) Once the downloaded the file extension may be .7z, if so download this free opensource software <a href="https://www.7-zip.org/">7-Zip</a> to unzip the file. When completed you should have a new Kali file that contains the Kali VirtualBox image with file extention .vbox.
 ![image](https://github.com/user-attachments/assets/6e37e503-890a-434a-83f6-50e42f48f219)
 
 In Oracle VirtualBox Manager, Go to "Add" -> Navigate to the unzipped Kali file and select the file with extention .vbox
@@ -54,7 +55,7 @@ Most importantly the Network Settings. If the network is attached to NAT, that m
 
 Go to Network within the Virtual machine settings and change "NAT" to "Host-only Adapter".
 Choose the Host adapter you created when you intsalled VirtualBox.
-Since the Kali Linux mavhine will be used for scanning we will "Allow VMs" within "Promiscuoous Mode" in the settings.
+Since the Kali Linux machine will be used for scanning we will "Allow VMs" within "Promiscuoous Mode" in the settings.
 Verify all these changes and click "OK".
 ![image](https://github.com/user-attachments/assets/83577a91-a597-4256-b84f-fc6010bb3ffb)
 
@@ -67,11 +68,11 @@ For this installation once downloaded, navigate to VirtualBox -> Settings -> Sto
 
 ![image](https://github.com/user-attachments/assets/5bcb012f-3d50-4009-b2de-7a4bd88cea20)
 
-When added Click "New", Select Linus as Operatings System type
+When added Click "New", Select Linux as Operatings System type
 Go down to "Hard Disk" and Use an existing Virtual Hard Disk File, Select the Metasploitable Hard Disk you just installed.
 ![image](https://github.com/user-attachments/assets/8e1663af-b5b2-4842-9392-6c5807033d69)
 
-Be sure to check the Network settings for Metasploitable and verify that its attached to Host-only adapter and on the same network as Kali Linux.
+Be sure to check the Network settings for Metasploitable and verify that it's attached to Host-only adapter and on the same network as Kali Linux.
 
 ### Install Ubuntu
 Ubuntu is not available as a pre-packaged appliance as it must be installed from an ISO file, which functions like a virtual CD/DVD.
